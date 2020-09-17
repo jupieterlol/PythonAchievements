@@ -115,15 +115,44 @@ while x == 1:
   print("The question is : The period of 2 sin x cos x is?")
   mathAnswer = input("The anwser is: ")
   if mathAnswer == "π" or mathAnswer == "pi" or mathAnswer == "Pi" :
-   print("")
+   print("'Indeed the answer is pi (π)' Says the teacher.")
+   print("'I almost though your were not paying any attation to the class well done' Says the teacher proudly.")
+   print("You are extremely proud of yourself for knowing the answer to the question.")
+   print("Because you never pay attantion in math class and suck at math.")
+   x += 1
+   y += 1
   elif mathAnswer == "phi" or mathAnser == "Phi":
-   print("'Close, but the anwer I was looking for is pi (π) and not phi (φ)' Says the teacher")
+   print("'Close, but the anwer I was looking for is pi (π) and not phi (φ)' Says the teacher.")
+   print("The class starts burtsting out in laughter.")
+   print("You feel really bad for giving the bad answer and almost start crying.")
+   print("Lucky stands Nicky up for you and says 'You shouldn't laugh you could have made the same mistake'")
+   print("The whole class is suddely silent.")
+   print("Then says the teacher 'Yeah thats right Nicky. But lets continue the lesson.'")
+   print("You were greatfull that Nicky was there for you.")
+   x += 1
+   y += 1
   else:
-   print("'That is wrong' Says the math teacher")
-   print("'The answer was π' Says the teacher")
-   print("You feel really embarrassed that you got it wrong")
-  x += 6
-  y += 5
+   print("'That is wrong' Says the math teacher.")
+   print("'The answer was π' Says the teacher.")
+   print("You feel really embarrassed that you got it wrong.")
+   x += 1
+   y += 1
+
+while x == 5 or y == 4:
+ print("----------------------------------------------------------")
+ print(" ")
+ print("The class continuous for quite a while until the school bell rings.")
+ if y == 4:
+  print("Because you rushed out of the house early you don't had time to eat")
+  print("Lets go to the cafeteria and get some food")
+ elif hungery == 1:
+  print("Your stomach start to growl because you haven't eaten yet")
+ else:
+  print("Ah lunch break a nice time to just chill you think to yourself.")
+  
+
+ x += 6
+ y += 5
 
 
 
