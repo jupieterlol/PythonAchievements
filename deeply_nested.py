@@ -25,13 +25,13 @@ canMissMoney = True
 cook = False
 
 # will you have vistors over soon
-vistorsSoon = false
+vistorsSoon = False
 
 # do you need to do something soon.
-noTime = false
+noTime = False
 
 #check if you can wait for food
-if timeLastEaten > 599 or vistorsSoon == true or noTime == true:
+if timeLastEaten > 599 or vistorsSoon == True or noTime == True:
  canWaitForFood = False
 else:
  canWaitForFood = True
