@@ -2,6 +2,7 @@
 x = 1
 y = 0
 hungery = 0
+Nicky = 1
 
 # start of the journey
 
@@ -218,7 +219,31 @@ while x == 5 or y == 4:
   print("Please answer: cheese sandwich, omelet, toastie or skip")
 
 while x == 6 or y == 5:
+ print("You and Nicky go back to class")
+ print("When you and Nicky arive at class you see that al the other students suddenly changed into zombie's")
+ doSomething = input("What will you do: ")
+ print("----------------------------------------------------------")
  print("")
+ if doSomething == "throw" or doSomething == "yeet":
+  print("You grab Nicky and throw here at the zombie's")
+  print("Nicky scream at you 'You bitch I will find y... o... u... an..d KILL YOU!!!!!'")
+  print("It temporary stopt the zombie horde")
+  print("You lost Nicky as a companion.")
+  print("You ran away from the zombie's.")
+  Nicky -= 1
+  x += 1
+  y += 1
+ elif doSomething == "run" or doSomething == "Run":
+  print("You grab Nicky and run away from the zombie horde.")
+  x += 1
+  y += 1
+ else:
+  print("Please choose between: run and throw.")
+ 
+while x == 7 or y == 6:
+ print("sorry this is the end of this demo project.")
+ print("I hope I will update this in the future.")
+ print("And I hope you had fun.")
  x += 6
  y += 5
 
