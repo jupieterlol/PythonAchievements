@@ -33,7 +33,7 @@ while x == 1:
   print("The option that you have are: grilled cheese sandwich, a omelet or cruesli.")
   breakfast = input("What will I make? : ")
   
-# if else statement to see what breakfast you choose
+# what happens when you choose breakfast
   if breakfast == "omelet":
    print("You make a delicous omelet.")
    print("The omelet looks really good so you take a picture of it and post it on instagram.")
@@ -75,7 +75,7 @@ while x == 1:
   y += 1
   hungery += 1
 
-
+#childhoodfriend part
  while x == 3 or y == 2:
   print("----------------------------------------------------------")
   print("")
@@ -85,6 +85,8 @@ while x == 1:
   print("You look behind you and see your chilhood friend Nicky running towards you")
   print("'Hey " + name + ", how are you this morning?!!!!' Asked Nicky")
   mood = input("I'm am doing: ")
+  
+# give the right responds to your mood
   if mood == "good" or mood == "well":
    print("'Ah thats nice to hear' says Nicky")
    x += 1
@@ -104,6 +106,7 @@ while x == 1:
   else:
    print("options are: good, bad or okay")
 
+# math teacher part
  while x == 4 or y == 3:
   print("----------------------------------------------------------")
   print(" ")
@@ -114,6 +117,8 @@ while x == 1:
   print("Then the math teacher starts asking you if you know the sollution to the math problem")
   print("The question is : The period of 2 sin x cos x is?")
   mathAnswer = input("The anwser is: ")
+  
+# reaction to the answer given
   if mathAnswer == "π" or mathAnswer == "pi" or mathAnswer == "Pi" :
    print("'Indeed the answer is pi (π)' Says the teacher.")
    print("'I almost though your were not paying any attation to the class well done' Says the teacher proudly.")
@@ -138,19 +143,45 @@ while x == 1:
    x += 1
    y += 1
 
+#lunchbreak
 while x == 5 or y == 4:
  print("----------------------------------------------------------")
  print(" ")
  print("The class continuous for quite a while until the school bell rings.")
+
+# check if you have eaten or not. 
  if y == 4:
-  print("Because you rushed out of the house early you don't had time to eat")
+  print("Because you rushed out of the house early you didn't had time to eat")
   print("Lets go to the cafeteria and get some food")
  elif hungery == 1:
   print("Your stomach start to growl because you haven't eaten yet")
  else:
   print("Ah lunch break a nice time to just chill you think to yourself.")
-  
+  print("And maybe to also grab some lunch.")
 
+# continue lunchbreak
+ print("You go together with Nicky to the cafeteria to chill and get some food.")
+ print("You go to the lunchlady to order some food.")
+ print("They have today on the menu: cheese sandwich, omelet and a toastie.")
+ foodChoose = input("I want a: ")
+ if foodChoose == "cheese" or foodChoose == "sandwich" or foodChoose == "cheese sandwich":
+  print("You choose the cheese sandwich.")
+ elif foodChoose == "" or foodChoose == "":
+  print("")
+ elif foodChoose == "skip" and hungery == 0:
+  print("You didn't feel like ordering food because you had this morning a pretty great meal.")
+  print("Nicky sees this and asks 'Are you not hungery?'")
+  print("You say no because you had " + breakfast + " as breakfast")
+  print("Nicky says 'Okay lets find a place to sit.'")
+ elif foodChoose == "skip" and hungery == 1:
+  print("That is not a smart choose because you haven't eaten yet.")
+  print("Your Nicky sees that you want to skip lunch will you look really hungery.")
+  print("So Nicky gives you a part of her lunch.")
+  print("You get a penaut butter and jelly sandwich.")
+  print("Its your favorite type of sandwich.")
+  print("You say thank you to Nicky and eat the sandwich.")
+ else:
+  print("") 
  x += 6
  y += 5
 
