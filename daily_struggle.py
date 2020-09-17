@@ -82,18 +82,23 @@ while x == 1:
   print("You finally arrive at school.")
   print("You hear from a far someone screaming your name.")
   name = input("What is your name? : ")
-  print("'Hey " + name + ", how are you this morning!!!")
+  print("You look behind you and see your chilhood friend Nicky running towards you")
+  print("'Hey " + name + ", how are you this morning?!!!!' Asked Nicky")
   mood = input("I'm am doing: ")
-  if mood == "good":
-   print("")
+  if mood == "good" or mood == "well":
+   print("'Ah thats nice to hear' says Nicky")
    x += 1
    y += 1
   elif mood == "bad":
-   print("")
+   print("'Ah I hope you will feel better soon' Says Nicky worried")
+   print("'Here have a hug' Says Nicky")
+   print("Nicky gives you a hug and I feels really great")
+   print("You say thanks to Nicky")
+   print("You feel alot better now")
    x += 1
    y += 1
   elif mood == "okay" or mood == "fine":
-   print("")
+   print("'Ah thats okay' says Nicky")
    x += 1
    y += 1
   else:
@@ -101,7 +106,21 @@ while x == 1:
 
  while x == 4 or y == 3:
   print("----------------------------------------------------------")
-  print("")
+  print("'Lets go inside' says Nicky")
+  print("You both go inside school and to your class room waiting for the class to start")
+  print("The class your in right now is math class")
+  print("The class is boring as ussual so you scribble a bit on your note's")
+  print("Then the math teacher starts asking you if you know the sollution to the math problem")
+  print("The question is : The period of 2 sin x cos x is?"
+  mathAnswer = input("The anwser is : ")
+  if mathAnswer == "" or mathAnswer == "":
+   print("")
+  elif mathAnswer == "" or mathAnswer == "":
+   print("")
+  else:
+   print("'That is wrong' Says the math teacher")
+   print("'The answer was π' Says the teacher)
+   print("You feel really embarrassed that you got it wrong")
   x += 6
   y += 5
 
