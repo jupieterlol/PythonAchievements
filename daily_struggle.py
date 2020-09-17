@@ -170,20 +170,39 @@ while x == 5 or y == 4:
 # foodchoose 
  if foodChoose == "cheese" or foodChoose == "sandwich" or foodChoose == "cheese sandwich":
   print("You choose the cheese sandwich.")
+  print("After making your choose you and Nicky start looking for a table to sit at.")
+  print("After finding a table you and Nicky sit down at the table")
+  print("After sitting down at the table you start to eat your cheese sandwich")
+  print("After finishing your sandwich you get ready to go back to class")
+  x += 1
+  y += 1
  elif foodChoose == "omelet" or foodChoose == "Omelet":
   print("You choose to get a omelet.")
+  print("After your done ordering you and Nicky start to look for a table.")
+  print("After you guys found a table you start to inspect you omelet")
   print("The omelet looks pretty nice.")
   print("You take a bite out of it.")
   print("Your face lights up of pure joy.")
   print("After finishing the omelet you get ready to go back to class.")
- elif foodChoose == "" or foodChoose == "":
-  print("")
+  x += 1
+  y += 1
+ elif foodChoose == "toastie" or foodChoose == "Toastie":
+  print("You choose to take a toastie.")
+  print("After you got your toastie you go with Nicky to find a table.")
+  print("After you found a table you start eating your toastie.")
+  print("Your toastie is taste really good.") 
+  print("You think by yourself that the next time your here you while again to order the toastie.")
+  print("After you and Nicky are done you two grab your stuff and go back to class.")
+  x += 1
+  y += 1
  elif foodChoose == "skip" and hungery == 0:
   print("You didn't feel like ordering food because you had this morning a pretty great meal.")
   print("Nicky sees this and asks 'Are you not hungery?'")
   print("You say no because you had " + breakfast + " as breakfast.")
   print("Nicky says 'Okay lets find a place to sit.'")
   print("You have a chat with Nicky about alot of things including cute guys and girls")
+  x += 1
+  y += 1
   print("After done talking you grab your stuff to go back to class.")
  elif foodChoose == "skip" and hungery == 1:
   print("That is not a smart choose because you haven't eaten yet.")
@@ -193,8 +212,13 @@ while x == 5 or y == 4:
   print("Its your favorite type of sandwich.")
   print("You say thank you to Nicky and eat the sandwich.")
   print("After eating the sandwich you grab your stuff to go back to class.")
+  x += 1
+  y += 1
  else:
-  print("") 
+  print("Please answer: cheese sandwich, omelet, toastie or skip")
+
+while x == 6 or y == 5:
+ print("")
  x += 6
  y += 5
 
