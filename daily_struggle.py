@@ -106,20 +106,21 @@ while x == 1:
 
  while x == 4 or y == 3:
   print("----------------------------------------------------------")
+  print(" ")
   print("'Lets go inside' says Nicky")
   print("You both go inside school and to your class room waiting for the class to start")
   print("The class your in right now is math class")
   print("The class is boring as ussual so you scribble a bit on your note's")
   print("Then the math teacher starts asking you if you know the sollution to the math problem")
-  print("The question is : The period of 2 sin x cos x is?"
-  mathAnswer = input("The anwser is : ")
-  if mathAnswer == "" or mathAnswer == "":
+  print("The question is : The period of 2 sin x cos x is?")
+  mathAnswer = input("The anwser is: ")
+  if mathAnswer == "π" or mathAnswer == "pi" or mathAnswer == "Pi" :
    print("")
-  elif mathAnswer == "" or mathAnswer == "":
-   print("")
+  elif mathAnswer == "phi" or mathAnser == "Phi":
+   print("'Close, but the anwer I was looking for is pi (π) and not phi (φ)' Says the teacher")
   else:
    print("'That is wrong' Says the math teacher")
-   print("'The answer was π' Says the teacher)
+   print("'The answer was π' Says the teacher")
    print("You feel really embarrassed that you got it wrong")
   x += 6
   y += 5
