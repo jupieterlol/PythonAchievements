@@ -1,0 +1,37 @@
+import sys
+import time
+
+def callMe(name, number):
+  print("@: 'Hello '"+name+" here.'")
+  time.sleep(1)
+  print("@: 'Who is there?'")
+  time.sleep(1)
+  print("#: 'I threw a wish in the well'")
+  time.sleep(1)
+  print("#: 'Don't ask me I'll never tell'")
+  time.sleep(1)
+  print("@: 'Wait what????'")
+  time.sleep(1)
+  print("#: 'I looked at you as it fell.'")
+  time.sleep(1)
+  print("#: 'And now you're in my way.'")
+  time.sleep(1)
+  print("@: 'Uhmmmm okay.'")
+  time.sleep(1)
+  print("#: 'I'd trade my soul for a wish.'")
+  time.sleep(1)
+  print("#: 'Pennies and dimes for a kiss.'")
+  time.sleep(1)
+  print("#: 'I wasn't looking for this.'")
+  time.sleep(1)
+  print("#: 'But now you're in my way.'")
+  time.sleep(1)
+  print("@: 'I think "+number+" is not the right number.'")
+  time.sleep(1)
+  print("@: 'Please check if you have the right number.'")
+  print("@: 'Okay, i'm going to hang up now.'")
+  time.sleep(1)
+  print("click....")
+
+
+callMe(sys.argv[1], sys.argv[2])
